@@ -50,7 +50,7 @@ function sendMessage() {
         method: 'POST',
         headers: {
             'content-type': 'application/json',
-            'X-RapidAPI-Key': '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',
+            'X-RapidAPI-Key': 'YOUR API KEY',
             'X-RapidAPI-Host': 'openai80.p.rapidapi.com'
         },
         body: `{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":"${message}"}]}`
